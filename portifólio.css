@@ -147,8 +147,9 @@ body, h1, h2, p, ul, li, form {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    width: 50%;
     height: 40px;
+    padding: 21.5px 0;
     border-radius: 50%;
     background-color: #333;
     color: #fff;
