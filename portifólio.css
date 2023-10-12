@@ -139,19 +139,22 @@ body, h1, h2, p, ul, li, form {
     border-radius: 5px;
     cursor: pointer;
   }
- .social-media {
-    margin-top: 20px;
+  .social-media {
+    padding: 20px;
+    font-size: 30px;
+    width: 65%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
-    width: 5%;
-    height: 5%;
+    gap: 20px;
+    
   }
   
   .social-link {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 5%;
     height: 5%;
     font-size: 20px;
     border-radius: 100%;
