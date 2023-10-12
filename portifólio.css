@@ -7,6 +7,12 @@
   }
 }
 
+.social-link {
+  width: 5%;
+  height: 5%;
+  font-size: 20px;
+}
+
 /* Reset default margins and paddings */
 body, h1, h2, p, ul, li, form {
     margin: 0;
@@ -112,7 +118,7 @@ body, h1, h2, p, ul, li, form {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
-    max-width: 400px;
+    max-width: 100%;
     margin: 0 auto;
   }
   
@@ -127,6 +133,7 @@ body, h1, h2, p, ul, li, form {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
   }
   
   form input[type="submit"] {
